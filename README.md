@@ -1,27 +1,15 @@
-<img width="1920" alt="readme banner" src="https://user-images.githubusercontent.com/13329304/212335772-3b8fbb62-cd37-40e0-84bb-c9d3d5bf16ce.png">
-<br/>
-
-<div align="center"><b>푸시알림 커스텀 서비스, Knocknock</b></div>
-<p align="center">
-<!-- <a href="https://play.google.com/store/apps/">  <img src="https://img.shields.io/badge/Google_Play-Download-purple?logo=google-play&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> </a>  -->
-</p>
-
----
-
-![readme 0](https://user-images.githubusercontent.com/13329304/212335734-461d63bb-3296-4f88-8d84-839bee723b38.png)
-![readme 01](https://user-images.githubusercontent.com/13329304/212340411-17efb2dd-d17e-46a4-b61e-1479d1ea3da1.png)
-![readme 2](https://user-images.githubusercontent.com/13329304/212335770-51689501-e3cc-4566-a8d5-9de641f614a2.png)
-![readme 3](https://user-images.githubusercontent.com/13329304/212335774-5e68b3c5-1f7b-44b6-acba-459323b5b12d.png)
-![readme 4](https://user-images.githubusercontent.com/13329304/212340417-4822d6fe-1b5b-42bf-997f-06692c338090.png)
-
----
 
 ## 1. 서버 구동 가이드
 
-- java 11 버전, gradle , mysql , 도커가 필요합니다!
+### Skills
+- java 11 버전
+- Spring Boot 2.7.4
+- gradle
+- mysql8
+- redis
 
-- mysql 을 로컬에서 실행시킵니다.
-
+### 서버 실행
+- mysql 구동 
 - docker-compose로 redis를 구동시킵니다.
 
 ```cli
@@ -37,119 +25,36 @@ $ java -jar ./build/libs/KnockKnock-Backend-0.0.1-SNAPSHOT.jar
 ## 2. Erd
 
 <br/>
-<div align="center"><img align="center" width="640" alt="ㄷㄱㅇ" src="https://user-images.githubusercontent.com/55780251/212340609-99759e40-c09b-423d-98ee-7fcae09537fb.png"></div>
+<div align="center"><img align="center" width="640" alt="erd" src="https://user-images.githubusercontent.com/55780251/212340609-99759e40-c09b-423d-98ee-7fcae09537fb.png"></div>
 
 ---
 
 ## 3. 서버 아키텍쳐
 
-<div align="center"><img align="center" width="640" alt="ㄷㄱㅇ" src="https://user-images.githubusercontent.com/13329304/212339699-dab9355f-668a-434b-b3b9-217c1756a707.png"></div>
+<div align="center"><img align="center" width="640" alt="server architecture" src="https://user-images.githubusercontent.com/13329304/212339699-dab9355f-668a-434b-b3b9-217c1756a707.png"></div>
 
 ---
 
-## 4. 선생님들
-
-### :computer: 개발자 선생님들 :computer:
-
-<table>
-    <tr align="center">
-        <td><B>백엔드, 팀장<B></td>
-        <td><B>백엔드<B></td>
-        <td><B>백엔드<B></td>
-    </tr>
-    <tr align="center">
+## 4. 개발자 
+<table>    
+    <tr align="center">        
+        <td><B>배정은<B></td>
         <td><B>이서준<B></td>
         <td><B>이찬진<B></td>
-        <td><B>배정은<B></td>
     </tr>
     <tr align="center">
+         <td>
+            <img width="100"  src="https://user-images.githubusercontent.com/13329304/212317656-6a6d8921-8a1b-4308-82a6-0228f32cb6b0.png">      
+        </td>
         <td>
-            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317665-4a049d15-41df-4bba-a6af-bce850ef55e5.png">
-            <br>
-            <a href="https://github.com/leeseojune53"><I>leeseojune53</I></a>
+            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317665-4a049d15-41df-4bba-a6af-bce850ef55e5.png">    
         </td>
         <td>
             <img width="100" src="https://user-images.githubusercontent.com/13329304/212317676-ba3895c7-2e2d-4ae9-bc35-cf342ce93d06.png">
-            <br>
-            <a href="https://github.com/ImNM"><I>ImNM</I></a>
-        </td>
-        <td>
-            <img width="100"  src="https://user-images.githubusercontent.com/13329304/212317656-6a6d8921-8a1b-4308-82a6-0228f32cb6b0.png">
-            <br>
-            <a href="https://github.com/mybloom"><I>mybloom</I></a>
-        </td>
+        </td>       
     </tr>
 </table>
 
-<table>
-    <tr align="center">
-        <td><B>AOS 팀장<B></td>
-        <td><B>AOS<B></td>
-        <td><B>AOS<B></td>
-        <td><B>AOS<B></td>
-    </tr>
-    <tr align="center">
-        <td><B>이영준<B></td>
-        <td><B>황규일<B></td>
-        <td><B>조준장<B></td>
-        <td><B>최현정<B></td>
-    </tr>
-    <tr align="center">
-        <td>
-            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317672-354d13b9-6ab4-42cf-bdb5-a394b4e4de7c.png">
-            <br>
-            <a href="https://github.com/leeyjwinter"><I>leeyjwinter</I></a>
-        </td>
-        <td>
-            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317688-990afa01-5913-4afe-8c1b-8b92d4a4cfe8.png">
-            <br>
-            <a href="https://github.com/Gyuil-Hwnag"><I>Gyuil-Hwnag</I></a>
-        </td>
-        <td>
-            <img width="100"  src="https://user-images.githubusercontent.com/13329304/212317678-cc962cb6-1a49-4cb2-a03a-11a3ca65ba47.png">
-            <br>
-            <a href="https://github.com/junjange"><I>junjange</I></a>
-        </td>
-        <td>
-            <img width="100"  src="https://user-images.githubusercontent.com/13329304/212317686-595cb18c-f6d5-41ff-9562-268d33fc29dc.png">
-            <br>
-            <a href="https://github.com/hyunjung-choi"><I>hyunjung-choi</I></a>
-        </td>
-    </tr>
-
-</table>
-
-### :art: 하늘같은 디자인 선생님들 :art:
-
-<table>
-    <tr align="center">
-        <td><B>디자인<B></td>
-        <td><B>디자인<B></td>
-        <td><B>디자인<B></td>
-    </tr>
-    <tr align="center">
-        <td><B>김나영<B></td>
-        <td><B>박수연<B></td>
-        <td><B>진승희<B></td>
-    </tr>
-    <tr align="center">
-        <td>
-            <img width="100"  src="https://user-images.githubusercontent.com/13329304/212317639-6330ff4a-cfd1-4a3a-a8f7-967039c5885b.png">
-            <br>
-            <a href="https://www.behance.net/402zzang"><I>김나영</I></a>
-        </td>
-        <td>
-            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317647-b90031d3-44c2-4ba5-831c-5d7d181ed083.png">
-            <br>
-            <a href="https://www.behance.net/sypak120c57e"><I>박수연</I></a>
-        </td>
-        <td>
-            <img width="100" src="https://user-images.githubusercontent.com/13329304/212317684-7622f74d-a011-4481-9773-864aee3e28f6.png">
-            <br>
-            <a href="https://www.behance.net/kb1658280b"><I>진승희</I></a>
-        </td>
-    </tr>
-</table>
 
 ---
 
